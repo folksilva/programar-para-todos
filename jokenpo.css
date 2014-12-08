@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1#mensagem {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+section.jogador {
+	background-color: #eee;
+	padding: 10px;
+}
+
+section.jogador img {
+	margin-left: 10px;
+	margin-right: 10px;
+	opacity: 0.5;
+	cursor: pointer;
+	border-radius: 100px;
+}
+section.jogador img:hover {
+	opacity: 1;
+}
